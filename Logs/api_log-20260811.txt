@@ -1,0 +1,120 @@
+[2026-08-11 10:51:33] [INF] Now listening on: https://localhost:44365
+[2026-08-11 10:51:33] [INF] Now listening on: http://localhost:5210
+[2026-08-11 10:51:33] [INF] Application started. Press Ctrl+C to shut down.
+[2026-08-11 10:51:33] [INF] Hosting environment: Development
+[2026-08-11 10:51:33] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-08-11 10:51:54] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-08-11 10:52:00] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 6683.918ms
+[2026-08-11 10:52:01] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-08-11 10:52:01] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-08-11 10:52:01] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 28.2238ms
+[2026-08-11 10:52:01] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.6861ms
+[2026-08-11 10:52:02] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-08-11 10:52:02] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.8964ms
+[2026-08-11 10:55:33] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads - application/json 753
+[2026-08-11 10:55:34] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:55:34] [INF] Route matched with {action = "CreateLead", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLead(HarleyLeadApi.Models.LeadInsertRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 10:55:41] [INF] Lead insert request: {"lead_uid":"a1169464-416b-4e7d-a631-1d7e4e0156bc","first_name":"Cogent","last_name":"Testing","name":"Cogent Testing","phone":"9999999991","email":"shashi.ranjan@cogenteservices.com","pincode":"201301","city":"Meerut","state":"Uttar Pradesh","pre_selected_model":"string","lead_source":"string","utm_source":"string","source_campaign":"string","CampaignName":"string","purchase_timelines":"string","exchange_required":"string","finance_required":"string","pre_selected_dealer_code":"string","pre_selected_dealer_name":"string","old_dealer_code":"string","old_dealer_name":"string","old_enquiry_date":"string","free_field2":"string","free_field3":"string","$type":"LeadInsertRequest"}
+[2026-08-11 10:56:15] [INF] Lead insert response: {"status":1,"message":"Lead inserted successfully","lead_uid":"a1169464-416b-4e7d-a631-1d7e4e0156bc","record_id":48,"$type":"LeadResponse"}
+[2026-08-11 10:56:17] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-08-11 10:56:19] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi) in 45761.1372ms
+[2026-08-11 10:56:19] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:56:19] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads - 201 null application/json; charset=utf-8 45871.4792ms
+[2026-08-11 10:57:15] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads - application/json 683
+[2026-08-11 10:57:15] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:57:15] [INF] Route matched with {action = "CreateLead", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLead(HarleyLeadApi.Models.LeadInsertRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 10:57:15] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-08-11 10:57:15] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi) in 26.7696ms
+[2026-08-11 10:57:15] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:57:15] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads - 400 null application/problem+json; charset=utf-8 60.6722ms
+[2026-08-11 10:58:32] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads - application/json 732
+[2026-08-11 10:58:32] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:58:32] [INF] Route matched with {action = "CreateLead", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLead(HarleyLeadApi.Models.LeadInsertRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 10:58:34] [INF] Lead insert request: {"lead_uid":"ab1169464-416b-4e7d-a631-1d7e4e0156bc","first_name":"Cogent","last_name":"Testing","name":"Cogent Testing","phone":"9999999991","email":"shashi.ranjan@cogenteservices.com","pincode":"201301","city":"Meerut","state":"Uttar Pradesh","pre_selected_model":"SPORTSTER S","lead_source":"Meta","utm_source":"dtert35245!@#","source_campaign":"trytrrtr","CampaignName":"HARLEY_OB","purchase_timelines":"test","exchange_required":"Yes","finance_required":"Yes","pre_selected_dealer_code":"gdfgdf","pre_selected_dealer_name":"fdgfgdf","old_dealer_code":"","old_dealer_name":"","old_enquiry_date":"","free_field2":"","free_field3":"","$type":"LeadInsertRequest"}
+[2026-08-11 10:58:35] [INF] Lead insert response: {"status":1,"message":"Lead inserted successfully","lead_uid":"ab1169464-416b-4e7d-a631-1d7e4e0156bc","record_id":49,"$type":"LeadResponse"}
+[2026-08-11 10:58:35] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-08-11 10:58:35] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi) in 3104.4985ms
+[2026-08-11 10:58:35] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 10:58:35] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads - 201 null application/json; charset=utf-8 3175.0254ms
+[2026-08-11 11:00:59] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads/callback - application/json 130
+[2026-08-11 11:00:59] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:00:59] [INF] Route matched with {action = "UpdateCallBack", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCallBack(HarleyLeadApi.Models.CallBackRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:01:00] [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-08-11 11:01:00] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi) in 15.5882ms
+[2026-08-11 11:01:00] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:01:00] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads/callback - 400 null application/json; charset=utf-8 40.7894ms
+[2026-08-11 11:01:16] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads/callback - application/json 130
+[2026-08-11 11:01:16] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:01:16] [INF] Route matched with {action = "UpdateCallBack", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCallBack(HarleyLeadApi.Models.CallBackRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:01:16] [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-08-11 11:01:16] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi) in 2.4902ms
+[2026-08-11 11:01:16] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:01:16] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads/callback - 400 null application/json; charset=utf-8 22.7864ms
+[2026-08-11 11:01:39] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads/callback - application/json 130
+[2026-08-11 11:01:39] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:01:39] [INF] Route matched with {action = "UpdateCallBack", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCallBack(HarleyLeadApi.Models.CallBackRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:01:39] [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-08-11 11:01:39] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi) in 3.2422ms
+[2026-08-11 11:01:39] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:01:39] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads/callback - 400 null application/json; charset=utf-8 33.4707ms
+[2026-08-11 11:02:14] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads/callback - application/json 129
+[2026-08-11 11:02:14] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:02:14] [INF] Route matched with {action = "UpdateCallBack", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCallBack(HarleyLeadApi.Models.CallBackRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:02:14] [INF] CallBack update request for ab1169464-416b-4e7d-a631-1d7e4e0156bc, CampaignName: HARLEY_OB, callbackTime: "2026-08-11T11:01:00.0000000"
+[2026-08-11 11:02:14] [INF] CallBack update response: {"status":1,"message":"CallBack time updated successfully","lead_uid":"ab1169464-416b-4e7d-a631-1d7e4e0156bc","record_id":null,"$type":"LeadResponse"}
+[2026-08-11 11:02:14] [INF] Executing OkObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-08-11 11:02:14] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi) in 85.8942ms
+[2026-08-11 11:02:14] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.UpdateCallBack (HarleyLeadApi)'
+[2026-08-11 11:02:14] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads/callback - 200 null application/json; charset=utf-8 106.7269ms
+[2026-08-11 11:02:57] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads/cancel - application/json 88
+[2026-08-11 11:02:57] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.CancelLead (HarleyLeadApi)'
+[2026-08-11 11:02:57] [INF] Route matched with {action = "CancelLead", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelLead(HarleyLeadApi.Models.CancelRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:02:57] [INF] Cancel request for lead_uid: ab1169464-416b-4e7d-a631-1d7e4e0156bc, CampaignName: HARLEY_OB
+[2026-08-11 11:02:57] [INF] Cancel response: {"status":1,"message":"Lead cancelled successfully","lead_uid":"ab1169464-416b-4e7d-a631-1d7e4e0156bc","record_id":null,"$type":"LeadResponse"}
+[2026-08-11 11:02:57] [INF] Executing OkObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-08-11 11:02:57] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.CancelLead (HarleyLeadApi) in 104.1936ms
+[2026-08-11 11:02:57] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.CancelLead (HarleyLeadApi)'
+[2026-08-11 11:02:57] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads/cancel - 200 null application/json; charset=utf-8 134.55ms
+[2026-08-11 11:34:58] [INF] Now listening on: https://localhost:44365
+[2026-08-11 11:34:58] [INF] Now listening on: http://localhost:5210
+[2026-08-11 11:34:58] [INF] Application started. Press Ctrl+C to shut down.
+[2026-08-11 11:34:58] [INF] Hosting environment: Development
+[2026-08-11 11:34:58] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-08-11 11:35:00] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-08-11 11:35:01] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 642.0764ms
+[2026-08-11 11:35:01] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-08-11 11:35:01] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-08-11 11:35:01] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 12.646ms
+[2026-08-11 11:35:01] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.9356ms
+[2026-08-11 11:35:02] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-08-11 11:35:02] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.795ms
+[2026-08-11 11:37:23] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-08-11 11:37:23] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 151.3052ms
+[2026-08-11 11:37:26] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-08-11 11:37:26] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.7596ms
+[2026-08-11 11:37:26] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-08-11 11:37:26] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.484ms
+[2026-08-11 11:37:26] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-08-11 11:37:26] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.5191ms
+[2026-08-11 11:37:48] [INF] Now listening on: https://localhost:44365
+[2026-08-11 11:37:49] [INF] Now listening on: http://localhost:5210
+[2026-08-11 11:37:49] [INF] Application started. Press Ctrl+C to shut down.
+[2026-08-11 11:37:49] [INF] Hosting environment: Development
+[2026-08-11 11:37:49] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-08-11 11:37:50] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-08-11 11:37:51] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 416.488ms
+[2026-08-11 11:37:51] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-08-11 11:37:51] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 12.3942ms
+[2026-08-11 11:37:51] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-08-11 11:37:51] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.4411ms
+[2026-08-11 11:37:51] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-08-11 11:37:51] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.4195ms
+[2026-08-11 11:41:17] [INF] Request starting HTTP/2 POST https://localhost:44365/api/leads - application/json 676
+[2026-08-11 11:41:17] [INF] Executing endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 11:41:17] [INF] Route matched with {action = "CreateLead", controller = "Leads"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLead(HarleyLeadApi.Models.LeadInsertRequest) on controller HarleyLeadApi.Controllers.LeadsController (HarleyLeadApi).
+[2026-08-11 11:41:23] [INF] Lead insert request: {"lead_uid":"string","first_name":"string","last_name":"string","name":"string","phone":"string","email":"string","pincode":"string","city":"string","state":"string","pre_selected_model":"string","lead_source":"string","utm_source":"string","source_campaign":"string","CampaignName":"string","purchase_timelines":"string","exchange_required":"string","finance_required":"string","pre_selected_dealer_code":"string","pre_selected_dealer_name":"string","old_dealer_code":"string","old_dealer_name":"string","old_enquiry_date":"string","free_field2":"string","free_field3":"string","$type":"LeadInsertRequest"}
+[2026-08-11 11:41:42] [INF] Lead insert response: {"status":0,"message":"lead_uid already exists","lead_uid":"string","record_id":null,"$type":"LeadResponse"}
+[2026-08-11 11:41:56] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-08-11 11:41:59] [INF] Executed action HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi) in 41399.9761ms
+[2026-08-11 11:41:59] [INF] Executed endpoint 'HarleyLeadApi.Controllers.LeadsController.CreateLead (HarleyLeadApi)'
+[2026-08-11 11:41:59] [INF] Request finished HTTP/2 POST https://localhost:44365/api/leads - 201 null application/json; charset=utf-8 41480.5006ms

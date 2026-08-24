@@ -1,0 +1,9 @@
+
+[2026-08-13 18:37:21] ENVIRONMENT SELECTED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system
+[2026-08-13 18:37:21] SCHEDULER TRIGGERED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Window (IST): 2026-08-13 18:32:00 to 2026-08-13 18:36:59
+[2026-08-13 18:37:22] TOTAL LEADS FOUND | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Count=0
+[2026-08-13 18:37:22] SUMMARY | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Found=0 | Pushed=0 | Failed=0
+[2026-08-13 18:37:31] ENVIRONMENT SELECTED | Type=PROD | TargetURL=https://hdlms.cogentlab.com/api/v1/webhooks/dialer/system
+[2026-08-13 18:37:31] SCHEDULER TRIGGERED | Type=PROD | TargetURL=https://hdlms.cogentlab.com/api/v1/webhooks/dialer/system | Window (IST): 2026-08-13 18:32:00 to 2026-08-13 18:36:59
+[2026-08-13 18:37:31] TOTAL LEADS FOUND | Type=PROD | TargetURL=https://hdlms.cogentlab.com/api/v1/webhooks/dialer/system | Count=0
+[2026-08-13 18:37:31] SUMMARY | Type=PROD | TargetURL=https://hdlms.cogentlab.com/api/v1/webhooks/dialer/system | Found=0 | Pushed=0 | Failed=0

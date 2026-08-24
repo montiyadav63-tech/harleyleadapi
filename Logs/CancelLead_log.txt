@@ -1,0 +1,3 @@
+
+[11-08-2026 11:02:57 AM] DATA RECEIVED | lead_uid=ab1169464-416b-4e7d-a631-1d7e4e0156bc | CampaignName=HARLEY_OB
+[11-08-2026 11:02:57 AM] RESPONSE | {"status":1,"message":"Lead cancelled successfully","lead_uid":"ab1169464-416b-4e7d-a631-1d7e4e0156bc","record_id":null}
