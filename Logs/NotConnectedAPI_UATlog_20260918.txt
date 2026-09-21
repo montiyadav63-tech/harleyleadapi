@@ -1,0 +1,15 @@
+
+[2026-09-18 16:42:13] ENVIRONMENT SELECTED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/systemApiKey=hdlms_nJXFFAcaR9EFHP8NWZ4nIv7MJicyTLWQD9Hm9hBl
+[2026-09-18 16:42:13] SCHEDULER TRIGGERED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Window (IST): 2026-09-18 16:12:00 to 2026-09-18 16:41:59
+[2026-09-18 16:42:14] LEADS FETCHED (JSON) | Type=UAT | Data=[{"call_result":0,"lead_uid":"b6b16e85-44f8-4fb0-8764-cf85a1dd329e","call_time":1789728127,"attempt":0,"record_id":1,"mobile":null}]
+[2026-09-18 16:42:14] TOTAL LEADS FOUND | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Count=1
+[2026-09-18 16:42:14] REQUEST | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | ApiKey=hdlms_nJXFFAcaR9EFHP8NWZ4nIv7MJicyTLWQD9Hm9hBl | lead_uid=b6b16e85-44f8-4fb0-8764-cf85a1dd329e | Payload={"lead_uid":"b6b16e85-44f8-4fb0-8764-cf85a1dd329e","sub_disposition_code":"switched_off","attempts_exhausted":false,"attempt":0,"remarks":"Not Connected","disposed_at":"2026-09-18 16:12:07"}
+[2026-09-18 16:42:15] RESPONSE | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | lead_uid=b6b16e85-44f8-4fb0-8764-cf85a1dd329e | Status=200 (OK) | Response={"success":true,"applied":false,"reason":"Lead is not in the Calling queue.","lead_uid":"b6b16e85-44f8-4fb0-8764-cf85a1dd329e","status":"closed_churning","current_step":2,"call_attempts":6,"max_attempts":6}
+[2026-09-18 16:42:15] PUSH SUCCESS | Type=UAT | lead_uid=b6b16e85-44f8-4fb0-8764-cf85a1dd329e
+[2026-09-18 16:42:15] INSERTED INTO nc_attempts | Type=UAT | lead_uid=b6b16e85-44f8-4fb0-8764-cf85a1dd329e | attempt=0
+[2026-09-18 16:42:15] SUMMARY | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Found=1 | Pushed=1 | Failed=0
+[2026-09-18 16:42:18] ENVIRONMENT SELECTED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/systemApiKey=hdlms_nJXFFAcaR9EFHP8NWZ4nIv7MJicyTLWQD9Hm9hBl
+[2026-09-18 16:42:18] SCHEDULER TRIGGERED | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Window (IST): 2026-09-18 16:12:00 to 2026-09-18 16:41:59
+[2026-09-18 16:42:18] LEADS FETCHED (JSON) | Type=UAT | Data=[]
+[2026-09-18 16:42:18] TOTAL LEADS FOUND | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Count=0
+[2026-09-18 16:42:18] SUMMARY | Type=UAT | TargetURL=https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system | Found=0 | Pushed=0 | Failed=0

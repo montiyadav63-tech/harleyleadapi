@@ -1,0 +1,31 @@
+[2026-09-18 16:41:55] [INF] Now listening on: https://localhost:44365
+[2026-09-18 16:41:55] [INF] Now listening on: http://localhost:5210
+[2026-09-18 16:41:55] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-18 16:41:55] [INF] Hosting environment: Development
+[2026-09-18 16:41:55] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-18 16:41:58] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-18 16:41:59] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 560.2208ms
+[2026-09-18 16:41:59] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-18 16:41:59] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 17.679ms
+[2026-09-18 16:41:59] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-18 16:41:59] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 120.2607ms
+[2026-09-18 16:41:59] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-18 16:41:59] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.6812ms
+[2026-09-18 16:42:13] [INF] Request starting HTTP/2 GET https://localhost:44365/api/notconnected?type=UAT&campaignName=X440_UAT - null null
+[2026-09-18 16:42:13] [INF] Executing endpoint 'HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi)'
+[2026-09-18 16:42:13] [INF] Route matched with {action = "NotConnectedAPI", controller = "NotConnected"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] NotConnectedAPI(System.String, System.String) on controller HarleyLeadApi.Controllers.NotConnectedController (HarleyLeadApi).
+[2026-09-18 16:42:14] [INF] Start processing HTTP request POST https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system
+[2026-09-18 16:42:14] [INF] Sending HTTP request POST https://hdlms-uat.cogentlab.com/api/v1/webhooks/dialer/system
+[2026-09-18 16:42:15] [INF] Received HTTP response headers after 349.5718ms - 200
+[2026-09-18 16:42:15] [INF] End processing HTTP request after 363.7347ms - 200
+[2026-09-18 16:42:15] [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-09-18 16:42:15] [INF] Executed action HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi) in 1853.8321ms
+[2026-09-18 16:42:15] [INF] Executed endpoint 'HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi)'
+[2026-09-18 16:42:15] [INF] Request finished HTTP/2 GET https://localhost:44365/api/notconnected?type=UAT&campaignName=X440_UAT - 200 null application/json; charset=utf-8 1940.5382ms
+[2026-09-18 16:42:18] [INF] Request starting HTTP/2 GET https://localhost:44365/api/notconnected?type=UAT&campaignName=X440_UAT - null null
+[2026-09-18 16:42:18] [INF] Executing endpoint 'HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi)'
+[2026-09-18 16:42:18] [INF] Route matched with {action = "NotConnectedAPI", controller = "NotConnected"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] NotConnectedAPI(System.String, System.String) on controller HarleyLeadApi.Controllers.NotConnectedController (HarleyLeadApi).
+[2026-09-18 16:42:18] [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2026-09-18 16:42:18] [INF] Executed action HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi) in 27.5449ms
+[2026-09-18 16:42:18] [INF] Executed endpoint 'HarleyLeadApi.Controllers.NotConnectedController.NotConnectedAPI (HarleyLeadApi)'
+[2026-09-18 16:42:18] [INF] Request finished HTTP/2 GET https://localhost:44365/api/notconnected?type=UAT&campaignName=X440_UAT - 200 null application/json; charset=utf-8 50.1654ms

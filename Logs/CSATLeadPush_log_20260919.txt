@@ -1,0 +1,9 @@
+
+[19-09-2026 05:40:29 PM] DATA RECEIVED | lead_uid=csat-9f21a3b4-6c85-4e12-a9d3-7b1f8e5c2d40 | contactNumber=9812345678 | campaignSurvey=x440_csat_survey_2026
+[19-09-2026 05:40:30 PM] RESPONSE | {"status":1,"message":"CSAT lead inserted successfully","lead_uid":"csat-9f21a3b4-6c85-4e12-a9d3-7b1f8e5c2d40","record_id":1}
+[19-09-2026 05:44:53 PM] DATA RECEIVED | lead_uid=string | contactNumber=string | campaignSurvey=string
+[19-09-2026 05:44:57 PM] RESPONSE | {"status":1,"message":"CSAT lead inserted successfully","lead_uid":"string","record_id":2}
+[19-09-2026 05:55:05 PM] DATA RECEIVED | lead_uid=csat-9f2dfd1a3b4-6dfsdc85-4e12-a9d3-7b1f8e5c2d40 | contactNumber=7992009572 | campaignSurvey=x440_csat_survey_2026
+[19-09-2026 05:55:05 PM] RESPONSE | {"status":1,"message":"CSAT lead inserted successfully","lead_uid":"csat-9f2dfd1a3b4-6dfsdc85-4e12-a9d3-7b1f8e5c2d40","record_id":3}
+[19-09-2026 06:02:27 PM] DATA RECEIVED | lead_uid=csat-a3f92c81-5d67-4e9a-b234-6f8e1c9d5a72 | contactNumber=78565373222 | campaignSurvey=x440_csat_survey_2026
+[19-09-2026 06:02:28 PM] RESPONSE | {"status":1,"message":"CSAT lead inserted successfully","lead_uid":"csat-a3f92c81-5d67-4e9a-b234-6f8e1c9d5a72","record_id":4}

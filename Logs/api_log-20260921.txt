@@ -1,0 +1,13 @@
+[2026-09-21 10:16:01] [INF] Now listening on: https://localhost:44365
+[2026-09-21 10:16:01] [INF] Now listening on: http://localhost:5210
+[2026-09-21 10:16:02] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-21 10:16:02] [INF] Hosting environment: Development
+[2026-09-21 10:16:02] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-21 10:16:05] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-21 10:16:06] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 820.7875ms
+[2026-09-21 10:16:06] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-21 10:16:06] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-21 10:16:06] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 48.3924ms
+[2026-09-21 10:16:06] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 282.7264ms
+[2026-09-21 10:16:07] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-21 10:16:07] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.9624ms

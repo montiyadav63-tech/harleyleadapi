@@ -10,13 +10,13 @@ namespace HarleyLeadApi.Models
         public string name { get; set; }
         [Required] public string phone { get; set; }
         public string email { get; set; }
-        [Required] public string pincode { get; set; }
+         public string pincode { get; set; }
         [Required] public string city { get; set; }
-        [Required] public string state { get; set; }
+         public string state { get; set; }
         [Required] public string pre_selected_model { get; set; }
         [Required] public string lead_source { get; set; }
-        [Required] public string utm_source { get; set; }
-        [Required] public string source_campaign { get; set; }
+        public string utm_source { get; set; }
+         public string source_campaign { get; set; }
        [Required] public string CampaignName { get; set; }
         public string purchase_timelines { get; set; }
         public string exchange_required { get; set; }

@@ -19,7 +19,7 @@ namespace HarleyLeadApi.Controllers
         // POST api/notconnected/run
         // Windows Task Scheduler ise har 5 minute pe hit karega
         [HttpGet("notconnected")]
-        public async Task<IActionResult> NotConnectedAPI([FromQuery] string type)
+        public async Task<IActionResult> NotConnectedAPI([FromQuery] string type, [FromQuery] string campaignName)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace HarleyLeadApi.Controllers
                 }
 
                 var (totalFound, totalPushed, totalFailed) =
-                    await _notConnectedService.ProcessNotConnectedLeadsAsync(type);
+                    await _notConnectedService.ProcessNotConnectedLeadsAsync(type, campaignName);
 
                 return Ok(new
                 {

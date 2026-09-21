@@ -1,0 +1,158 @@
+[2026-09-19 12:18:40] [INF] Now listening on: https://localhost:44365
+[2026-09-19 12:18:40] [INF] Now listening on: http://localhost:5210
+[2026-09-19 12:18:41] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-19 12:18:41] [INF] Hosting environment: Development
+[2026-09-19 12:18:41] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-19 12:18:53] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 12:18:54] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 663.3848ms
+[2026-09-19 12:18:54] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 12:18:54] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 12:18:54] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 27.938ms
+[2026-09-19 12:18:54] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.7984ms
+[2026-09-19 12:18:54] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 12:18:54] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.0232ms
+[2026-09-19 17:39:34] [INF] Now listening on: https://localhost:44365
+[2026-09-19 17:39:35] [INF] Now listening on: http://localhost:5210
+[2026-09-19 17:39:35] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-19 17:39:35] [INF] Hosting environment: Development
+[2026-09-19 17:39:35] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-19 17:39:47] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 17:39:47] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 542.0534ms
+[2026-09-19 17:39:47] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 17:39:47] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 17:39:47] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 47.5811ms
+[2026-09-19 17:39:48] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 888.9812ms
+[2026-09-19 17:39:48] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 17:39:48] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.6133ms
+[2026-09-19 17:40:28] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - application/json 235
+[2026-09-19 17:40:28] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:40:28] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:40:30] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-09-19 17:40:30] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 1935.5559ms
+[2026-09-19 17:40:30] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:40:30] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - 201 null application/json; charset=utf-8 2049.4705ms
+[2026-09-19 17:42:18] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - application/json 194
+[2026-09-19 17:42:18] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:42:18] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:42:18] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:42:18] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 21.8837ms
+[2026-09-19 17:42:18] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:42:18] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - 400 null application/problem+json; charset=utf-8 49.9043ms
+[2026-09-19 17:42:29] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - application/json 225
+[2026-09-19 17:42:29] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:42:29] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:42:29] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:42:29] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 3.6593ms
+[2026-09-19 17:42:29] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:42:29] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - 400 null application/problem+json; charset=utf-8 22.9688ms
+[2026-09-19 17:43:02] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - application/json 214
+[2026-09-19 17:43:02] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:43:02] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:43:02] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:43:02] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 7.9859ms
+[2026-09-19 17:43:02] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:43:02] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csat/csatleadpush - 400 null application/problem+json; charset=utf-8 57.8207ms
+[2026-09-19 17:44:03] [INF] Now listening on: https://localhost:44365
+[2026-09-19 17:44:03] [INF] Now listening on: http://localhost:5210
+[2026-09-19 17:44:03] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-19 17:44:03] [INF] Hosting environment: Development
+[2026-09-19 17:44:03] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-19 17:44:05] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 17:44:05] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 353.0911ms
+[2026-09-19 17:44:05] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 17:44:05] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 17:44:05] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 18.7203ms
+[2026-09-19 17:44:05] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.8273ms
+[2026-09-19 17:44:05] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 17:44:06] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 196.227ms
+[2026-09-19 17:44:28] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 17:44:28] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 66.6861ms
+[2026-09-19 17:44:28] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 17:44:28] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 17:44:28] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 17.7125ms
+[2026-09-19 17:44:28] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.3953ms
+[2026-09-19 17:44:28] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 17:44:28] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3296ms
+[2026-09-19 17:44:32] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 17:44:32] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 8.0191ms
+[2026-09-19 17:44:32] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 17:44:32] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 17:44:32] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 34.0491ms
+[2026-09-19 17:44:32] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.2751ms
+[2026-09-19 17:44:32] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 17:44:32] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.3555ms
+[2026-09-19 17:44:49] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 194
+[2026-09-19 17:44:50] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:44:52] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:44:57] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-09-19 17:44:57] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 4660.3011ms
+[2026-09-19 17:44:57] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:44:57] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 201 null application/json; charset=utf-8 7919.187ms
+[2026-09-19 17:54:15] [INF] Now listening on: https://localhost:44365
+[2026-09-19 17:54:15] [INF] Now listening on: http://localhost:5210
+[2026-09-19 17:54:15] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-19 17:54:15] [INF] Hosting environment: Development
+[2026-09-19 17:54:15] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-19 17:54:20] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 17:54:20] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 376.2685ms
+[2026-09-19 17:54:20] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 17:54:20] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 17:54:20] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 31.4308ms
+[2026-09-19 17:54:21] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 259.9002ms
+[2026-09-19 17:54:21] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 17:54:21] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.7094ms
+[2026-09-19 17:55:04] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 243
+[2026-09-19 17:55:04] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:55:04] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:55:05] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-09-19 17:55:05] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 1085.1154ms
+[2026-09-19 17:55:05] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:55:05] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 201 null application/json; charset=utf-8 1161.3356ms
+[2026-09-19 17:56:07] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 195
+[2026-09-19 17:56:07] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:07] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:56:07] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:56:07] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 31.6357ms
+[2026-09-19 17:56:07] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:07] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 400 null application/problem+json; charset=utf-8 66.9152ms
+[2026-09-19 17:56:20] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 188
+[2026-09-19 17:56:20] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:20] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:56:20] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:56:20] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 4.5546ms
+[2026-09-19 17:56:20] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:20] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 400 null application/problem+json; charset=utf-8 25.1325ms
+[2026-09-19 17:56:36] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 177
+[2026-09-19 17:56:36] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:36] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:56:36] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:56:36] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 2.5136ms
+[2026-09-19 17:56:36] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:56:36] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 400 null application/problem+json; charset=utf-8 35.1433ms
+[2026-09-19 17:57:06] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 164
+[2026-09-19 17:57:06] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:57:06] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 17:57:06] [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2026-09-19 17:57:06] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 2.8561ms
+[2026-09-19 17:57:06] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 17:57:06] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 400 null application/problem+json; charset=utf-8 33.6764ms
+[2026-09-19 18:01:14] [INF] Now listening on: https://localhost:44365
+[2026-09-19 18:01:14] [INF] Now listening on: http://localhost:5210
+[2026-09-19 18:01:15] [INF] Application started. Press Ctrl+C to shut down.
+[2026-09-19 18:01:15] [INF] Hosting environment: Development
+[2026-09-19 18:01:15] [INF] Content root path: D:\Restfullapi\HarleyLeadApi
+[2026-09-19 18:01:16] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - null null
+[2026-09-19 18:01:16] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - 200 null text/html;charset=utf-8 371.3461ms
+[2026-09-19 18:01:16] [INF] Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - null null
+[2026-09-19 18:01:16] [INF] Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - null null
+[2026-09-19 18:01:17] [INF] Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 45.1154ms
+[2026-09-19 18:01:17] [INF] Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - 200 null text/javascript; charset=UTF-8 161.3032ms
+[2026-09-19 18:01:17] [INF] Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - null null
+[2026-09-19 18:01:17] [INF] Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 364.4496ms
+[2026-09-19 18:02:27] [INF] Request starting HTTP/2 POST https://localhost:44365/api/csatleadpush - application/json 277
+[2026-09-19 18:02:27] [INF] Executing endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 18:02:27] [INF] Route matched with {action = "csatleadpush", controller = "CSAT"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] csatleadpush(HarleyLeadApi.Models.CSATLeadRequest) on controller HarleyLeadApi.Controllers.CSATController (HarleyLeadApi).
+[2026-09-19 18:02:28] [INF] Executing ObjectResult, writing value of type 'HarleyLeadApi.Models.LeadResponse'.
+[2026-09-19 18:02:28] [INF] Executed action HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi) in 963.6058ms
+[2026-09-19 18:02:28] [INF] Executed endpoint 'HarleyLeadApi.Controllers.CSATController.csatleadpush (HarleyLeadApi)'
+[2026-09-19 18:02:28] [INF] Request finished HTTP/2 POST https://localhost:44365/api/csatleadpush - 201 null application/json; charset=utf-8 1042.6746ms

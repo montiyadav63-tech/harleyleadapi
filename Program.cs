@@ -11,7 +11,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 try
-{
+{   
     var builder = WebApplication.CreateBuilder(args);
 
     builder.Host.UseSerilog();
@@ -23,6 +23,7 @@ try
     builder.Services.AddScoped<ILeadService, LeadService>();
     builder.Services.AddHttpClient<IDispositionService, DispositionService>();
     builder.Services.AddHttpClient<INotConnectedService, NotConnectedService>();
+    builder.Services.AddScoped<ICSATService, CSATService>();
     //builder.Services.AddScoped<INotConnectedService, NotConnectedService>();
     var app = builder.Build();
 
